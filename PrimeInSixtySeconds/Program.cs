@@ -13,6 +13,7 @@ namespace PrimeInSixtySeconds
         {
             System.Console.WriteLine("Calculating highest Prime in 60 seconds...");
             SixtySecondsStartsNow();
+            System.Console.Read();
         }
 
         static void SixtySecondsStartsNow()
@@ -34,7 +35,6 @@ namespace PrimeInSixtySeconds
             }
             timer.Stop();
             System.Console.WriteLine("The highest prime number I calculated in 60 seconds is: {0}", max);
-            System.Console.Read();
         }
 
         static bool CheckPrime(int number)
