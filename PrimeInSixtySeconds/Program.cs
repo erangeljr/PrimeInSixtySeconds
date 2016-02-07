@@ -15,7 +15,7 @@ namespace PrimeInSixtySeconds
             SixtySecondsStartsNow();
         }
 
-        private static void SixtySecondsStartsNow()
+        static void SixtySecondsStartsNow()
         {
             Stopwatch timer = new Stopwatch();
             var max = 0;
